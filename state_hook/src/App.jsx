@@ -1,20 +1,25 @@
-import React from 'react';
-import First from './First';
-import './App.css';
+import React from 'react'
+import First from './components/First';
+import Ap from './Ap';
+
 function App() {
   return (
-    <div>
-    <First />
-     <h1>First Heading ...</h1>
-     <a href='#'>link</a>
-     <ul>
-      <li>first</li>
-      <li>second</li>
-      <li>third</li>
-      <li><First/></li>
-     </ul>
+    <div id='main'>
+       <h1>Hello world ...</h1>
+       <First />
+       <Second />
+       <Ap/>
     </div>
-
+   
   )
 }
+
+function Second() {
+  return (
+    <div>
+       <h1>Component</h1>
+    </div>  
+  )
+}
+
 export default App;
