@@ -1,25 +1,21 @@
 import React from 'react'
-import First from './components/First';
-import Ap from './Ap';
-
+import {useState} from 'react';
 function App() {
+  const [number,setnumber]=useState(0);
+  // const handlecount=()=>{
+  //   setnumber(number+1);
+  // }
   return (
-    <div id='main'>
-       <h1>Hello world ...</h1>
-       <First />
-       <Second />
-       <Ap/>
+    <div style={{display:'flex',justifyContent:'center',textAlign:'center'}}>
+     <div>
+     <h1>Counting</h1>
+      <h3>{number}</h3>
+      <button onClick={()=>{setnumber(number+1)}}>Click</button>
+      <h3>{number}</h3>
+     </div>
     </div>
-   
-  )
-}
-
-function Second() {
-  return (
-    <div>
-       <h1>Component</h1>
-    </div>  
   )
 }
 
 export default App;
+

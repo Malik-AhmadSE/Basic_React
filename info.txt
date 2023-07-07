@@ -1,0 +1,14 @@
+///// Hooks ///
+
+//// React features ...... use using Hooks
+
+///// use statehook ////
+
+///// states ...... manage 
+
+
+///// import 
+/// syntax: import {useState} from 'react';
+
+///// how to use useState
+///// const [varaibale name,variable manage function] = useState();
