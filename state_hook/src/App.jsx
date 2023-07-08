@@ -1,15 +1,10 @@
 import React from 'react';
-import {useState} from 'react';
 
 function App() {
-  const [name,setname]=useState('Ahmad');
-  function handlename (){
-    setname('Qasim');
-  }
+  let name='Ahmad';
   return (
     <div>
-      <h1>{name}</h1>
-      <button onClick={handlename}>Click</button>
+    {name.length<=4?<h1>{name}</h1>:<h1>Not a Valid Name </h1>}
     </div>
   )
 }
