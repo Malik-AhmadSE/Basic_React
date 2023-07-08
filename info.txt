@@ -7,8 +7,12 @@
 ///// states ...... manage 
 
 
-///// import 
+///// importing 
 /// syntax: import {useState} from 'react';
 
 ///// how to use useState
 ///// const [varaibale name,variable manage function] = useState();
+//////example
+
+///  import {useState} from 'react';
+//// const [name,setName]=useState();
