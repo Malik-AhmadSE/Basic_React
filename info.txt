@@ -16,3 +16,14 @@
 
 ///  import {useState} from 'react';
 //// const [name,setName]=useState();
+
+///////////////////// use Effect //////////////
+
+
+/////// every time when page is render;
+
+////// import {useEffect} from 'react';
+
+useEffect(()=>{
+
+})
